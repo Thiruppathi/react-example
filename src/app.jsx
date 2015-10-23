@@ -1,5 +1,4 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
 var ThumbnailList = require('./thumbnail-list');
 
 var options = {
@@ -22,4 +21,4 @@ var options = {
 
 var element = React.createElement(ThumbnailList, options);
 
-ReactDOM.render(element, document.querySelector('#thumbnailTarget'));
+React.render(element, document.querySelector('.container'));
