@@ -5,7 +5,7 @@ var options = {
   thumbnailData: [
     {
       title: 'Show Courses',
-      number: 35,
+      number: 33,
       header: 'Learn React',
       description: 'Learn React with Flux',
       imgUrl: 'http://formatjs.io/img/react.svg'
